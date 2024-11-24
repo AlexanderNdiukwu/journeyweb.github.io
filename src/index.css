@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .li{
+        @apply hover:bg-red-100 pl-2 text-sm
+    } 
+
+    .active {
+        @apply active:bg-red-600
+    }
+
+    .detailstyles {
+        @apply  my-4 bg-white rounded px-2 shadow-black shadow-md hover:border-l-8 hover:border-red-500 block
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+}
+
+
